@@ -34,7 +34,7 @@ let brief;
 $templateGallery.innerHTML = loading;
 const { templates, logos } = await fetch("config.json").then((res) => res.json());
 const sections = [
-  { type: "template", $gallery: $templateGallery, items: templates, cols: "col-12 col-sm-4" },
+  { type: "template", $gallery: $templateGallery, items: templates, cols: "col-12 col-sm-3" },
   { type: "logo", $gallery: $logoGallery, items: logos, cols: "col-12 col-sm-2 col-lg-1" },
 ];
 

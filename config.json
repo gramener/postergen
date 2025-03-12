@@ -14,6 +14,11 @@
       "name": "Poster 3",
       "image": "templates/poster-3.webp",
       "template": "templates/poster-3.html"
+    },
+    {
+      "name": "Poster 4",
+      "image": "templates/poster-4.webp",
+      "template": "templates/poster-4.html"
     }
   ],
   "logos": [
