@@ -178,6 +178,22 @@ You need to fill in the text and generate prompts for an LLM to generate images.
   <div id="response" class="narrative my-5 mx-auto"></div>
 
   <div id="poster" class="mx-auto my-5 position-relative"></div>
+  
+  <div id="image-enhancement-container" class="narrative my-5 mx-auto d-none">
+    <div class="card">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Image Enhancement Assistant</h5>
+      </div>
+      <div class="card-body">
+        <div id="conversation-history" class="mb-3" style="max-height: 200px; overflow-y: auto;"></div>
+        <div class="d-flex align-items-center">
+          <textarea id="enhancement-prompt" class="form-control rounded-pill me-2" placeholder="Describe image enhancements..." style="resize: none; height: 38px;"></textarea>
+          <button type="button" class="btn btn-primary rounded-circle d-flex align-items-center justify-content-center p-0" id="enhance-image-btn" style="width: 38px; height: 36px;"><i class="bi bi-arrow-up"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div id="download-container" class="d-flex justify-content-center align-items-center my-5 d-none">
     <button type="button" class="btn btn-lg btn-success mx-2" id="download-png"><i class="bi bi-card-image"></i> Download PNG</button>
     <button type="button" class="btn btn-lg btn-success mx-2" id="download-pptx"><i class="bi bi-file-slides-fill"></i> Download PPTX</button>
