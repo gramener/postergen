@@ -117,6 +117,7 @@ $posterForm.addEventListener("submit", async (e) => {
 
   // Replace all logos with the selected logo
   for (const $logo of $poster.querySelectorAll('[data-type="logo"]')) $logo.src = logo.image;
+  
 
   // Create the components prompt section. It'll be "data-name: data-prompt\n..."
   const componentsPrompt = [...$poster.querySelectorAll("[data-name]")]

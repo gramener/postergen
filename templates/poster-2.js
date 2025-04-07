@@ -39,6 +39,7 @@ const poster2Template = (width, height) => {
   <div
     data-name="headline"
     data-prompt="Main headline (2-5 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${180 * widthScale}px;
@@ -54,6 +55,7 @@ const poster2Template = (width, height) => {
   <div
     data-name="subheadline"
     data-prompt="Supporting tagline (4-7 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${180 * widthScale}px;

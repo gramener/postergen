@@ -32,6 +32,7 @@ const poster3Template = (width, height) => {
   <div
     data-name="top_headline"
     data-prompt="Top headline text (3-5 words)"
+    contentEditable="true"
     style="
       position: absolute;
       left: ${75 * widthScale}px;
@@ -48,6 +49,7 @@ const poster3Template = (width, height) => {
   <div
     data-name="bottom_headline"
     data-prompt="Bottom headline text (3-5 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${75 * widthScale}px;
@@ -64,6 +66,7 @@ const poster3Template = (width, height) => {
   <div
     data-name="body_text"
     data-prompt="Body text paragraph (30-50 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${75 * widthScale}px;
@@ -78,6 +81,7 @@ const poster3Template = (width, height) => {
   <div
     data-name="call_to_action"
     data-prompt="Call to action text (10-15 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${75 * widthScale}px;
@@ -92,6 +96,7 @@ const poster3Template = (width, height) => {
   <div
     data-name="card_tagline"
     data-prompt="Card tagline (3-5 words)"
+    contentEditable="true"
     style="
       position: absolute;
       right: ${75 * widthScale}px;

@@ -33,6 +33,7 @@ const poster4Template = (width, height) => {
     <div
       data-name="title"
       data-prompt="Main title (3-5 words)"
+      contentEditable="true"
       style="
         position: absolute;
         left: ${80 * widthScale}px;
@@ -48,6 +49,7 @@ const poster4Template = (width, height) => {
     <div
       data-name="subtitle"
       data-prompt="Subtitle text (4-8 words)"
+      contentEditable="true"
       style="
         position: absolute;
         left: ${80 * widthScale}px;
@@ -63,6 +65,7 @@ const poster4Template = (width, height) => {
     <div
       data-name="body_text"
       data-prompt="Body text paragraph (30-50 words)"
+      contentEditable="true"
       style="
         position: absolute;
         left: ${80 * widthScale}px;
